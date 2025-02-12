@@ -16,9 +16,9 @@ const StatCard = ({ number, label, percentage, trend, icon }) => (
   </div>
 );
 
-export const OrderStats = () => {
+const OrderStats = () => {
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-4 gap-4 md:grid-auto">
       <StatCard
         number={18}
         label="Total Orders"
@@ -50,3 +50,5 @@ export const OrderStats = () => {
     </div>
   );
 };
+
+export default OrderStats;
