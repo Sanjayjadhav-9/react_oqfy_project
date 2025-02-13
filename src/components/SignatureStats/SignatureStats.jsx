@@ -46,8 +46,8 @@ const SignatureStats = ({ title, initiated, pending }) => {
               stroke="#7c3aed"
               strokeWidth="16"
               fill="none"
-              strokeDasharray={`${2 * Math.PI * 56}`}
-              strokeDashoffset={`${2 * Math.PI * 56 * (1 - percentage / 100)}`}
+              strokeDasharray={`${2 * Math.PI * 34}`}
+              strokeDashoffset={`${2 * Math.PI * 34 * (1 - percentage / 100)}`}
               className="transition-all duration-500"
             />
           </svg>
