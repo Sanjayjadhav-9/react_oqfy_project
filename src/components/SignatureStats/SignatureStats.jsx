@@ -36,7 +36,7 @@ const SignatureStats = ({ title, initiated, pending }) => {
               cy="64"
               r="56"
               stroke="#f3f4f6"
-              strokeWidth="12"
+              strokeWidth="16"
               fill="none"
             />
             <circle
@@ -44,7 +44,7 @@ const SignatureStats = ({ title, initiated, pending }) => {
               cy="64"
               r="56"
               stroke="#7c3aed"
-              strokeWidth="12"
+              strokeWidth="16"
               fill="none"
               strokeDasharray={`${2 * Math.PI * 56}`}
               strokeDashoffset={`${2 * Math.PI * 56 * (1 - percentage / 100)}`}
