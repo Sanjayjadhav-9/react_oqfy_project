@@ -2,7 +2,7 @@ import React from 'react';
 import { Package, Clock, CheckCircle, XCircle } from 'lucide-react';
 
 const StatCard = ({ number, label, percentage, trend, icon }) => (
-  <div className="bg-gray-50/80 p-4 rounded-xl">
+  <div className="bg-white p-4 rounded-xl">
     <div className="flex justify-between items-start">
       <div>
         <div className="text-2xl font-bold text-gray-800">{number}</div>
