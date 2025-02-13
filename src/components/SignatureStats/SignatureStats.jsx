@@ -58,7 +58,7 @@ const SignatureStats = ({ title, initiated, pending }) => {
         </div>
       </div>
       <button
-        className="mt-6 text-purple-600 text-sm font-medium flex items-center gap-1 hover:gap-2 transition-all mx-auto block"
+        className="mt-6 text-purple-600 text-sm font-medium flex items-center gap-1 hover:gap-2 transition-all mx-auto"
         onClick={() => document.getElementById('target-section')?.scrollIntoView({ behavior: 'smooth' })}
       >
         Scroll to Details
